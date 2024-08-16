@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sitio web</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" type="image/x-icon" href="img/logodel png.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+   
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img2/logo de empresa.jpg" alt="Bootstrap" width="70" height="80">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="justify-content-around collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto">
+            <a class="nav-link mx-5" href="#sobreNosotros">Sobre Nosotros</a>
+            <a class="nav-link mx-5" href="#productos">Productos</a>
+            <a class="nav-link mx-5" href="#Servicios">Nuestros Servicios</a>
+            <a class="nav-link mx-5" href="#CONTACTO">Contáctanos</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+      
+    <!-- Carrusel -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img2/auto2.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img2/trailers.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img2/auto1.webp" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+      
+    <!-- Sección Sobre Nosotros -->
+    <section class="container mt-5" id="sobreNosotros">
+      <div class="row text-center mt-5">
+        <div class="col">
+          <h2 class="titulo mt-5">SOBRE NOSOTROS</h2>
+          <p class="mt-4 mb-4">Somos una empresa comprometida con la seguridad y la satisfacción de nuestros clientes. Nos dedicamos a ofrecer productos y servicios de alta calidad para proteger tus bienes más valiosos.</p>
+        </div>
+      </div>
+    </section>
+      
+   <!-- Sección Productos -->
+<section class="container mt-5" id="productos">
+  <div class="row text-center mt-5">
+    <div class="col">
+      <h2 class="titulo mt-5">PRODUCTOS</h2>
+      <p class="mt-4 mb-4">Explora nuestros productos diseñados para ofrecerte la máxima protección y seguridad.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img2/RDR327.png" class="card-img-top product-img1" alt="Producto 1">
+        <div class="card-body">
+          <h5 class="card-title">RDR327</h5>
+          <p class="card-text">Es un equipo que incorpora tecnologia de ultima generacion, antenas celular y GPS ultra sensitivos para la mejor comunicacion posible.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img2/MOTOTRBO ION.png" class="card-img-top product-img2" alt="Producto 2">
+        <div class="card-body">
+          <h5 class="card-title">MOTOTRBO ION</h5>
+          <p class="card-text">Su negocio utiliza voz y datos pero si sus dispositivos solo pueden acceder a uno de esos recursos, usted requiere lo mejor de los dos mundos</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img2/Repetidor MOTOTRBO.png" class="card-img-top product-img3" alt="Producto 3">
+        <div class="card-body">
+          <h5 class="card-title">MOTOTRBO (Repetidor)</h5>
+          <p class="card-text">Para una mayor eficiencia y seguridad en toda su organización, debe contar con comunicaciones de voz y datos confiables que conecten absolutamente todo y a todos</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      
+    <!-- Sección Servicios -->
+    <article class="container mt-5 mb-5" id="Servicios">
+      <div class="row text-center mt-5">
+          <div class="col">
+              <h2 class="titulo mt-5">SERVICIOS</h2>
+              <h4 class="mt-4 mb-4">Ofreciendo servicios las 24 hrs</h4>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-4">
+              <span class="fs-1 titulo material-symbols-outlined">share_location</span>
+              <h5 class="mt-3 mb-3">GPS</h5>
+              <p class="fw-light">Conoce todo acerca de nuestros GPS</p>
+          </div>
+          <div class="col-md-4">
+              <span class="fs-1 titulo material-symbols-outlined">support_agent</span>
+              <h5 class="mt-3 mb-3">Soporte</h5>
+              <p class="fw-light">Brindamos atencion al clientes las 24 hrs para su seguridad</p>
+          </div>
+          <div class="col-md-4">
+              <span class="fs-1 titulo material-symbols-outlined">trip_origin</span>
+              <h5 class="mt-3 mb-3">App</h5>
+              <p class="fw-light">Contamos con una aplicacion movil con facil manipulación para tu mayor seguridad</p>
+          </div>
+          <div class="col-md-4">
+              <span class="fs-1 titulo material-symbols-outlined">directions_car</span>
+              <h5 class=" mt-3 mb-3">Producto</h5>
+              <p class="fw-light">Contamos con varios productos para proteger tu vehículo</p>
+          </div>
+          <div class="col-md-4">
+              <span class="fs-1 titulo material-symbols-outlined">recommend</span>
+              <h5 class=" mt-3 mb-3">Recomendaciones</h5>
+              <p class="fw-light">Comentarios de nuestros clientes satisfechos</p>
+          </div>
+          <div class="col-md-4">
+              <span class="fs-1 titulo material-symbols-outlined">image</span>
+              <h5 class="mt-3 mb-3">Galería</h5>
+              <p class="fw-light">Vehículos con los que hemos trabajado</p>
+          </div>
+      </div>
+    </div>
+    </article>
+      
+    <!-- Sección Contacto -->
+    <section class="container-fluid">
+      <div class="row text-center">
+          <h2 class="col" id="CONTACTO">CONTACTO</h2>
+      </div>
+      <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-2">
+              <p class="lh-1"><span class="material-symbols-outlined">location_on</span> C. Andrés Bello 4086, Aldama Tetlán, 44820 Guadalajara, Jal.</p>
+              <p class="lh-1"><span class="material-symbols-outlined">call</span> +52 457 689 900</p>
+              <p class="lh-1"><span class="material-symbols-outlined">mail</span><strong>reddtrackoffical@outlook.com</strong></p>
+          </div>
+          <div class="col-md-5">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14933.120120502112!2d-103.2804369!3d20.6581833!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b30b732c11d3%3A0xebce097d082cab54!2sReddtrack.mx!5e0!3m2!1ses-419!2smx!4v1720398001268!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-md-3">
+              <div class="form-floating mb-3">
+                  <input type="Email" class="form-control" id="floatingPassword" placeholder="ingresa tu correo">
+                  <label for="floatingPassword">Correo Electrónico</label>
+              </div>
+              <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="ingresa tu nombre">
+                  <label for="floatingInput">Nombre</label>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Registrarse</button>
+          </div>
+          <div class="col-md-1"></div>
+      </div>
+    </section>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
